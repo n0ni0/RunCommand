@@ -1,0 +1,23 @@
+{
+  "name": "n0ni0/module-runcommand",
+  "description": "Execute any magento command or custom command in a class in a clean and easy way",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio Jiménez Velázquez",
+      "email": "ajimenez.bf@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "N0ni0\\RunCommand\\": ""
+    }
+  }
+}
