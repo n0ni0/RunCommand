@@ -1,6 +1,7 @@
 {
   "name": "n0ni0/module-runcommand",
   "description": "Execute any magento command or custom command in a class in a clean and easy way",
+  "version": "1.0.0",
   "require": {
     "php": ">=7.0.0"
   },
